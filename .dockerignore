@@ -1,0 +1,25 @@
+# Node modules
+node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Next.js build output
+.next
+out
+
+# Editor settings
+.vscode
+
+# Environment files (ignore all envs)
+.env*
