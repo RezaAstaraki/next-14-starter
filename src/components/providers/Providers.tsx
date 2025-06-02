@@ -25,7 +25,7 @@ const ReduxProvider = ({ children }: ProviderProps) => {
 export function Providers({ children }: { children: React.ReactNode }) {
     return (
         <ProgressBarProvider>
-            <NextUIProvider>
+            <NextUIProvider className='flex flex-1'>
                 <ReduxProvider>{children}</ReduxProvider>
             </NextUIProvider>
         </ProgressBarProvider>

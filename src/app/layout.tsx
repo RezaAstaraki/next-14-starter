@@ -22,12 +22,9 @@ export default function RootLayout({
             <body className='flex flex-1 min-h-dvh'>
                 {/* <GoogleTagManager gtmId="GTM-5KMQ28H4" /> */}
                 <Providers>
-
-
                     {children}
                     <Toaster position="top-center" richColors duration={4000} expand />
                     <RootModal />
-
                 </Providers>
             </body>
         </html>
